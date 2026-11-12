@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Say hello
         run: echo "Hello from GitHub Actions!"
-      - name: Show context
+      - name: Show contextt
         run: |
           echo "Actor: ${{ github.actor }}"
           echo "Event: ${{ github.event_name }}"
